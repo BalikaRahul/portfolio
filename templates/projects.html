@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects Portfolio | Rahul Balika</title>
+    <meta
+      name="description"
+      content="Explore software engineering, machine learning, IoT, and full-stack projects built by Rahul Balika."
+    />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <header>
+      <nav>
+        <a href="home.html" class="logo">
+          Rahul<span>.dev</span>
+          <span class="logo-badge">Portfolio</span>
+        </a>
+
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html" class="active">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Projects Page -->
+    <main class="inner-page">
+      <div class="page-header">
+        <h1>Featured Projects</h1>
+        <p>
+          A selection of real-world software applications, machine learning
+          research models, and IoT automation systems I have engineered.
+        </p>
+        <div class="header-accent-line"></div>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">
+          All Projects
+        </button>
+        <button class="filter-btn" data-filter="ml">
+          Machine Learning & Data
+        </button>
+        <button class="filter-btn" data-filter="web">Full Stack & Web</button>
+        <button class="filter-btn" data-filter="iot">IoT & Hardware</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        <!-- Project 1: Django Full-Stack E-Commerce Platform -->
+        <article class="project-card" data-category="web">
+          <div>
+            <span class="project-category-tag">Full Stack & Web</span>
+            <h3>Full-Stack E-Commerce Web Application</h3>
+            <p class="project-summary">
+              A comprehensive, production-grade e-commerce web platform
+              engineered using Python & Django, rendered directly server-side
+              with Django Templates (DTL) and integrated with a secure online
+              payment gateway.
+            </p>
+
+            <ul class="project-bullets">
+              <li>
+                <strong>Direct Django Template Rendering:</strong> Built
+                entirely with server-side rendered Django Templates (DTL),
+                template inheritance, context processors, custom tags, and
+                robust CSRF token protection for snappy response times and
+                secure user sessions.
+              </li>
+              <li>
+                <strong>Secure Payment Gateway Integration:</strong> Integrated
+                end-to-end payment processing with signature verification,
+                automated order invoice generation, transaction logging, and
+                real-time payment status callbacks.
+              </li>
+              <li>
+                <strong>Dynamic Cart & Multi-Step Checkout:</strong> Implemented
+                session and database-backed shopping cart logic, real-time
+                quantity updates, stock/inventory decrement validation, and
+                multi-address checkout pipelines.
+              </li>
+              <li>
+                <strong>User Lifecycle & Product Catalog:</strong> Complete user
+                authentication (registration, login, profile management, order
+                history) with search, multi-category filtering, product rating
+                displays, and Django Admin order fulfillment controls.
+              </li>
+            </ul>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Django</span>
+              <span>Django Templates (DTL)</span>
+              <span>Payment Gateway</span>
+              <span>MySQL</span>
+              <span>HTML5 / CSS3</span>
+              <span>JavaScript</span>
+              <span>Session Auth</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/BalikaRahul"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-primary"
+            >
+              View on GitHub ↗
+            </a>
+            <a href="Contacts.html" class="link-secondary"> Inquire </a>
+          </div>
+        </article>
+
+        <!-- Project 2: Gold Price Prediction -->
+        <article class="project-card" data-category="ml">
+          <div>
+            <span class="project-category-tag">Machine Learning & Data</span>
+            <h3>Gold Price Prediction Using ML (Comparative Study)</h3>
+            <p class="project-summary">
+              A data-driven machine learning comparative research project
+              modeling gold price fluctuations influenced by economic indicators
+              and global market dynamics.
+            </p>
+
+            <ul class="project-bullets">
+              <li>
+                Implemented and benchmarked ensemble-based Random Forest against
+                kernel-based Support Vector Machine (SVM) algorithms.
+              </li>
+              <li>
+                Engineered feature pipelines incorporating historical price
+                data, financial indices, and trend variables.
+              </li>
+              <li>
+                Evaluated model accuracy utilizing Mean Squared Error (MSE), R²
+                score, and cross-validation to pinpoint the optimal forecasting
+                architecture.
+              </li>
+            </ul>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Scikit-Learn</span>
+              <span>Random Forest</span>
+              <span>SVM</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Matplotlib</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/BalikaRahul"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-primary"
+            >
+              View on GitHub ↗
+            </a>
+            <a href="Contacts.html" class="link-secondary"> Inquire </a>
+          </div>
+        </article>
+
+        <!-- Project 3: Esports Optimization -->
+        <article class="project-card" data-category="ml">
+          <div>
+            <span class="project-category-tag">Machine Learning & Data</span>
+            <h3>Optimizing Esports Teams via Collaborative Filtering</h3>
+            <p class="project-summary">
+              An intelligent hybrid recommendation and data analytics system
+              designed to enhance competitive gaming team compositions and
+              player synergy.
+            </p>
+
+            <ul class="project-bullets">
+              <li>
+                Applied collaborative filtering and hybrid recommender
+                algorithms to detect patterns in player performance and
+                behavioral compatibility.
+              </li>
+              <li>
+                Processed multi-dimensional datasets covering player roles, past
+                match stats, win-loss differentials, and tactical synergies.
+              </li>
+              <li>
+                Generated data-backed team roster recommendations to elevate
+                coordination and win probabilities in competitive matches.
+              </li>
+            </ul>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Recommender Systems</span>
+              <span>Collaborative Filtering</span>
+              <span>Data Analytics</span>
+              <span>Scikit-Learn</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/BalikaRahul"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-primary"
+            >
+              View on GitHub ↗
+            </a>
+            <a href="Contacts.html" class="link-secondary"> Inquire </a>
+          </div>
+        </article>
+
+        <!-- Project 4: Weather Application -->
+        <article class="project-card" data-category="web">
+          <div>
+            <span class="project-category-tag">Full Stack & Web</span>
+            <h3>Real-Time Weather Forecasting Application</h3>
+            <p class="project-summary">
+              A responsive full-stack weather application providing live
+              atmospheric data, location searching, and dynamic meteorological
+              visualizations.
+            </p>
+
+            <ul class="project-bullets">
+              <li>
+                Integrated third-party weather APIs to fetch real-time
+                temperature, humidity, wind velocity, and multi-day forecasts.
+              </li>
+              <li>
+                Built clean backend routing and asynchronous client-side API
+                consumers for rapid city lookups and instant state rendering.
+              </li>
+              <li>
+                Engineered a responsive, mobile-first interface featuring
+                weather condition-adaptive visuals and clean CSS animations.
+              </li>
+            </ul>
+
+            <div class="project-tags">
+              <span>Python</span>
+              <span>FastAPI / Flask</span>
+              <span>JavaScript</span>
+              <span>REST APIs</span>
+              <span>HTML5 / CSS3</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/BalikaRahul"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-primary"
+            >
+              View on GitHub ↗
+            </a>
+            <a href="Contacts.html" class="link-secondary"> Inquire </a>
+          </div>
+        </article>
+
+        <!-- Project 5: Adaptive LED Control System -->
+        <article class="project-card" data-category="iot">
+          <div>
+            <span class="project-category-tag">IoT & Hardware</span>
+            <h3>Adaptive Smart LED Control System</h3>
+            <p class="project-summary">
+              An IoT-based intelligent lighting automation system that
+              dynamically adjusts LED illumination intensity based on ambient
+              conditions and occupancy.
+            </p>
+
+            <ul class="project-bullets">
+              <li>
+                Designed microcontroller-based sensor interfacing using
+                light-dependent resistors (LDR) and proximity sensors.
+              </li>
+              <li>
+                Programmed automated pulse-width modulation (PWM) algorithms to
+                modulate luminescence dynamically and conserve energy.
+              </li>
+              <li>
+                Engineered fail-safe operational modes and validated power
+                efficiency gains through automated threshold tuning.
+              </li>
+            </ul>
+
+            <div class="project-tags">
+              <span>IoT</span>
+              <span>Embedded Python / C</span>
+              <span>Sensors</span>
+              <span>Microcontroller</span>
+              <span>Automation</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/BalikaRahul"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-primary"
+            >
+              View on GitHub ↗
+            </a>
+            <a href="Contacts.html" class="link-secondary"> Inquire </a>
+          </div>
+        </article>
+
+        <!-- Project 6: Developer Portfolio Platform -->
+        <article class="project-card" data-category="web">
+          <div>
+            <span class="project-category-tag">Full Stack & Web</span>
+            <h3>Modern Developer Portfolio Platform</h3>
+            <p class="project-summary">
+              A high-performance personal developer portfolio engineered to
+              showcase technical projects, engineering skills, certifications,
+              and career journey.
+            </p>
+
+            <ul class="project-bullets">
+              <li>
+                Crafted with semantic HTML5, modern CSS3 variables, responsive
+                Flexbox/Grid layouts, and a clean light theme.
+              </li>
+              <li>
+                Implemented interactive JavaScript modules including real-time
+                project filtering, mobile hamburger drawer, and contact
+                handling.
+              </li>
+              <li>
+                Optimized for speed, SEO metadata, cross-device responsiveness,
+                and clean code architecture with zero external bloated
+                libraries.
+              </li>
+            </ul>
+
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive UI</span>
+              <span>Light Theme</span>
+            </div>
+          </div>
+
+          <div class="project-links">
+            <a
+              href="https://github.com/BalikaRahul"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-primary"
+            >
+              View on GitHub ↗
+            </a>
+            <a href="Home.html" class="link-secondary"> Live Preview </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Bottom GitHub CTA -->
+      <div
+        style="
+          margin-top: 55px;
+          text-align: center;
+          background: var(--bg-card);
+          padding: 36px;
+          border-radius: var(--radius-md);
+          border: 1px solid var(--border-color);
+        "
+      >
+        <h3 style="font-size: 22px; margin-bottom: 10px">
+          More Repositories on GitHub
+        </h3>
+        <p
+          style="
+            color: var(--text-muted);
+            margin-bottom: 22px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+          "
+        >
+          Explore source code, algorithmic problem solving, and ongoing
+          experiments on my official GitHub profile.
+        </p>
+        <a
+          href="https://github.com/BalikaRahul"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary"
+        >
+          Visit github.com/BalikaRahul ↗
+        </a>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Rahul Balika</h3>
+          <p>Full Stack Python Developer & CSE Engineer</p>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Rahul Balika | All Rights Reserved</p>
+        <p>Saveetha School of Engineering (SIMATS) • CSE '26</p>
+      </div>
+    </footer>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

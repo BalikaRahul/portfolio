@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Background Circle (Solid Light Lavender) -->
+  <circle cx="200" cy="200" r="190" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="4" />
+  
+  <!-- Outer Circuit Rings (Solid Soft Lavender Accents) -->
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#c4b5fd" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.6" />
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#ddd6fe" stroke-width="1" stroke-dasharray="20 10 5 10" opacity="0.8" />
+
+  <!-- Code brackets in background -->
+  <text x="50" y="150" font-family="monospace" font-size="30" font-weight="bold" fill="#a78bfa" opacity="0.45">&lt;/&gt;</text>
+  <text x="310" y="160" font-family="monospace" font-size="26" font-weight="bold" fill="#8b5cf6" opacity="0.45">{ ; }</text>
+  <text x="60" y="270" font-family="monospace" font-size="22" font-weight="bold" fill="#7c3aed" opacity="0.4">py</text>
+  <text x="315" y="260" font-family="monospace" font-size="24" font-weight="bold" fill="#6d28d9" opacity="0.4">SQL</text>
+
+  <!-- Developer Silhouette / Torso -->
+  <path d="M110 350 C110 280, 140 250, 200 250 C260 250, 290 280, 290 350 Z" fill="#1e293b" stroke="#7c3aed" stroke-width="2.5" />
+  
+  <!-- Collar Accent -->
+  <path d="M165 252 L200 295 L235 252 Z" fill="#334155" stroke="#7c3aed" stroke-width="2" />
+  <path d="M190 295 L200 350 L210 295 Z" fill="#7c3aed" opacity="0.8" />
+
+  <!-- Neck -->
+  <rect x="185" y="215" width="30" height="40" rx="6" fill="#fcd34d" />
+  <rect x="185" y="235" width="30" height="20" fill="#f59e0b" opacity="0.25" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="170" rx="46" ry="54" fill="#fcd34d" />
+
+  <!-- Hair -->
+  <path d="M152 165 C150 120, 175 105, 200 105 C230 105, 252 120, 248 165 C240 135, 225 125, 200 125 C175 125, 160 140, 152 165 Z" fill="#1e293b" />
+  <path d="M154 150 C165 118, 190 110, 220 112 C238 114, 248 126, 248 135 C240 122, 224 118, 205 118 C180 118, 165 130, 154 150 Z" fill="#0f172a" />
+
+  <!-- Glasses -->
+  <rect x="165" y="160" width="28" height="20" rx="5" fill="#ffffff" fill-opacity="0.3" stroke="#7c3aed" stroke-width="3" />
+  <rect x="207" y="160" width="28" height="20" rx="5" fill="#ffffff" fill-opacity="0.3" stroke="#7c3aed" stroke-width="3" />
+  <line x1="193" y1="170" x2="207" y2="170" stroke="#7c3aed" stroke-width="3" />
+  <line x1="154" y1="170" x2="165" y2="170" stroke="#7c3aed" stroke-width="2.5" />
+  <line x1="235" y1="170" x2="246" y2="170" stroke="#7c3aed" stroke-width="2.5" />
+
+  <!-- Smile & Nose -->
+  <path d="M198 180 L202 188 L196 190" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" />
+  <path d="M188 202 Q200 214 212 202" fill="none" stroke="#b45309" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Laptop in foreground -->
+  <path d="M130 365 L270 365 L255 330 L145 330 Z" fill="#334155" stroke="#7c3aed" stroke-width="2" />
+  <circle cx="200" cy="347" r="7" fill="#a78bfa" />
+
+  <!-- Accent Dots (Solid Lavender Shades) -->
+  <circle cx="95" cy="110" r="5" fill="#8b5cf6" />
+  <circle cx="305" cy="105" r="5" fill="#7c3aed" />
+  <circle cx="330" cy="210" r="4" fill="#a78bfa" />
+  <circle cx="70" cy="215" r="4" fill="#8b5cf6" />
+</svg>
